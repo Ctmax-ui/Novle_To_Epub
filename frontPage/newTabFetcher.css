@@ -1,0 +1,25 @@
+button{
+    outline: none;
+background: transparent;
+    color: #0093e7;
+    border: 1px solid #1fa4f1;
+    transition: all ease-in-out .5s;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+button:hover{
+    background: linear-gradient(to right, #1fa4f1, #0da0ef, #009cec, #0095e8, #0093e7, #0091e6);
+    color: #fff;
+}
+
+input{
+    outline: none;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #0093e7;
+}
+
+p{
+    font-size: 1.4em;
+    text-align: center;
+    width: 100%;
+}

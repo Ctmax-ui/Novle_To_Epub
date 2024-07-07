@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' cdn.jsdelivr.net">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./icon/n-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icon/n-16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <title>Novle Scraper</title>
+    <script src="../dist/jszip.min.js"></script>
+    <script src="../dist/FileSaver.min.js"></script>
+    <script src="./newTabFetcher.js"></script>
+    <link rel="stylesheet" href="./newTabFetcher.css">
+</head>
+<body>
+    <form id="scrapeForm" style="text-align: center;">
+        <label style="font-size: 2.5em;" for="url">Novle to EPUB</label>
+        <br>
+        <input type="text" id="url" name="url" style=" margin-top: 20px; font-size: 1.1em; width: 30%; padding: 10px;" required placeholder="Type your novle First page url or link">
+        <button type="submit" style="padding: 10px; font-size: 1.1em; ">Start Scrpaing</button>
+    </form>
+    <p><span style="color: red; "> Note: </span> This extenstion only work on if you put your novle's first chapter url</p>
+    <pre style="font-size: 1.1em;" id="log"></pre>
+
+</body>
+
+</html>
